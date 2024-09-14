@@ -1,0 +1,91 @@
+[
+  {
+    "userCode": "A00001",
+    "userName": "王大蠻",
+    "userDept": "90251",
+    "userAge": 28,
+    "userSalary": 1000000
+  },
+  {
+    "userCode": "A00002",
+    "userName": "李鐵嘴",
+    "userDept": "90251",
+    "userAge": 33,
+    "userSalary": 2500000
+  },
+  {
+    "userCode": "B00001",
+    "userName": "沙悟淨",
+    "userDept": "90252",
+    "userAge": 28,
+    "userSalary": 1000000
+  },
+  {
+    "userCode": "B00002",
+    "userName": "孫悟空",
+    "userDept": "90252",
+    "userAge": 33,
+    "userSalary": 2500000
+  },
+  {
+    "userCode": "B00003",
+    "userName": "豬八戒",
+    "userDept": "90252",
+    "userAge": 40,
+    "userSalary": 3560000
+  }
+]
+
+[
+]
+
+
+[
+  {
+    "userDept": "90251",
+    "userList": [
+      {
+        "userCode": "A00001",
+        "userName": "王大蠻",
+        "userDept": "90251",
+        "userAge": 28,
+        "userSalary": 1000000
+      },
+      {
+        "userCode": "A00002",
+        "userName": "李鐵嘴",
+        "userDept": "90251",
+        "userAge": 33,
+        "userSalary": 2500000
+      }
+    ],
+    "totle": 2
+  },
+  {
+    "userDept": "90252",
+    "userList": [
+      {
+        "userCode": "B00001",
+        "userName": "沙悟淨",
+        "userDept": "90252",
+        "userAge": 28,
+        "userSalary": 1000000
+      },
+      {
+        "userCode": "B00002",
+        "userName": "孫悟空",
+        "userDept": "90252",
+        "userAge": 33,
+        "userSalary": 2500000
+      },
+      {
+        "userCode": "B00003",
+        "userName": "豬八戒",
+        "userDept": "90252",
+        "userAge": 40,
+        "userSalary": 3560000
+      }
+    ],
+    "totle": 3
+  }
+]
