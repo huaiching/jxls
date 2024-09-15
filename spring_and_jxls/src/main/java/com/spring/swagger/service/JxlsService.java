@@ -39,5 +39,4 @@ public interface JxlsService {
      */
     public HttpServletResponse getExcelResponseData(HttpServletResponse response, String fileName);
 
-
 }

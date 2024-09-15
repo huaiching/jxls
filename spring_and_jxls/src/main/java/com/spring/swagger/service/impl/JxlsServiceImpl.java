@@ -1,5 +1,6 @@
 package com.spring.swagger.service.impl;
 
+import com.deepoove.poi.XWPFTemplate;
 import com.spring.swagger.dto.DeptUser;
 import com.spring.swagger.dto.User;
 import com.spring.swagger.service.JxlsService;
@@ -13,11 +14,14 @@ import org.jxls.util.JxlsHelper;
 import org.jxls.util.TransformerFactory;
 import org.springframework.stereotype.Service;
 
+import java.io.BufferedOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.URLEncoder;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 @Service
 public class JxlsServiceImpl implements JxlsService {
